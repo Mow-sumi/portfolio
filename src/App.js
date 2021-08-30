@@ -5,7 +5,7 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link
+  
 } from "react-router-dom";
 import Navbar from './Components/Navbar/Navbar';
 import Home from './Components/Home';
@@ -29,13 +29,13 @@ function App() {
         <Route exact path="/about">
           <About />
         </Route>
-        <Route path="/projects">
+        <Route esact path="/projects">
           <Projects />
           </Route>
-          <Route path="/contact">
+          <Route exact path="/contact">
           <Contact />
           </Route>
-          <Route path="/ressume">
+          <Route exact path="/ressume">
           <Ressume />
           </Route>
      
