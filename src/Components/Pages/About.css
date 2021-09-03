@@ -1,0 +1,55 @@
+
+body{
+    background:#052142;
+    color: white;
+}
+
+.text-type{
+    font-size: 40px;
+    color: purple;
+    margin-bottom: 20px;
+}
+
+ul{
+    list-style: none;
+  
+}
+
+
+strong{
+    color: purple;
+    font-size: 18px;
+}
+
+
+
+
+.text-color{
+    color: purple;
+}
+
+h2 ,h1{
+    font-weight: 700px;
+    font-size: 40px;
+}
+
+.fa-code,.fa-js-square, .fa-reacteurope{
+    font-size: 100px;
+    color: purple;
+}
+
+.fa-code:hover{
+    color:brown;
+    transition: all 0.5 ease-in-out;
+}
+.fa-js-square:hover{
+    color:brown;
+    transition: all 0.5 ease-in-out;
+}
+
+.fa-reacteurope:hover{
+    color:brown;
+    transition: all 0.5 ease-in-out;
+}
+
+
