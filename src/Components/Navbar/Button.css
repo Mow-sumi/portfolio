@@ -2,7 +2,7 @@
     --primary: purple;
   }
   
-  .btn {
+  .button-size {
     padding: 8px 20px;
     border-radius: 4px;
     outline: none;
@@ -13,7 +13,7 @@
     background-color: var(--primary);
   }
   
-  .btn:hover {
+  .button-size:hover {
     padding: 8px 20px;
     transition: all 0.3s ease-out;
     background-color: transparent;
