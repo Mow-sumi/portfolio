@@ -11,7 +11,8 @@ const Navbar = () => {
 
     return (
         <>
-            <nav className="navbar">
+        <div className="container-fluid ">
+            <nav className="navbar fixed-top">
                 <Link to="/"className="navbar-logo">Portfolio<i class="fab fa-react"></i></Link>
                 <div className="menu-icon" onClick={handleClick}>
                 <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
@@ -33,6 +34,7 @@ const Navbar = () => {
                     </ul>
               <Button/>
             </nav>
+            </div>
         </>
     );
 };

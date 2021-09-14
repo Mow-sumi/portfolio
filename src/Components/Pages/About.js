@@ -4,10 +4,10 @@ import './About.css'
 
 const About = () => {
     return (
-        <div className="container mt-5">
+        <div className="container mt-5 py-5">
 
          
-            <div className="row ">
+            <div className="row mt-3 ">
             <h1 className="text-type">
                     <Typewriter
                         options={{

@@ -12,7 +12,7 @@ const Contact = () => {
         e.preventDefault();
     }
 
-    // db.collection("").add({
+    // db.collection("personal_info").add({
     //     name: name,
     //     email: email,
     //     message: message,
@@ -31,11 +31,11 @@ const Contact = () => {
     // setMessage('');
 
     return (
-        <div className="container mt-3 pt-3">
+        <div className="container mt-5 pt-5">
 
             <div className="contact-section">
 
-                <div className="title text-center mb-3">
+                <div className="title text-center mt-3 mb-3">
                     <h3>Lets ' Conversation</h3>
                 </div>
                 <form action="" className="was-validated w-50 m-auto" onClick={handleSubmit}>

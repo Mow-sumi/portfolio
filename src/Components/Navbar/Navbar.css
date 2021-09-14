@@ -5,6 +5,7 @@
     justify-content: center;
     align-items: center;
     font-size: 1.2rem;
+ 
 }
 
 .navbar-logo{
@@ -95,11 +96,14 @@
         padding: 2rem;
         width: 100%;
         display: table;
+      
     }
 
     .nav-links:hover{
         background: purple;
-        border-radius: 0;
+        border-radius: 3px solid #6668f4;
+     
+      
     }
 
     .navbar-logo{
@@ -157,8 +161,8 @@
         transition: 250ms;
     } */
 
-    button{
+    /* button{
         display: none;
-    }
+    } */
     
 }
