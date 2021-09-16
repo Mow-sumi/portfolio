@@ -20,7 +20,7 @@ function App() {
   return (
 
     <Router>
-   <Navbar/>
+      <Navbar/>
 
       <Switch>
        <Route exact path="/">

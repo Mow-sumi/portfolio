@@ -1,11 +1,11 @@
 import React from 'react';
 
+
 const Ressume = () => {
     return (
         <div className="container mt-5 py-5 ">
             <h1 className="text-center text-color">My Ressume</h1>
             <div className="row mt-5">
-
                 <div className="col-md-6 col-lg-6 col-sm-12 col-xs-12">
 
                     <div className="">
@@ -173,7 +173,7 @@ const Ressume = () => {
 
             <div className="language bg-info ">
                 <div className="text-center  mt-5 py-2">
-                    <h2 className='text-color'>Language proficiency</h2>
+                    <h2 className='text-color'>Language-proficiency</h2>
                 </div>
 
                 <table className="table table-striped table-bordered table-info text-center  text-dark table-hover fs-5">
@@ -262,7 +262,7 @@ const Ressume = () => {
 
             <div className="hobby-section">
                 <div className="text-center bg-info mt-5 ">
-                    <h2 className='text-color'>Reference</h2>
+                    <h2 className='text-color'>References</h2>
                 </div>
 
                 <div className="text-lg fs-4 mt-3">

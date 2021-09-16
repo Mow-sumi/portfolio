@@ -49,12 +49,12 @@ image{
     margin-bottom: 20px;
 }
 .button{
-    font-size: 18px;
+    font-size: 20px;
     border: 2px solid white;
     border-radius: 5px;
     outline: none;
     background-color: #11cf99;
-    color: black;
+    color: white;
     padding: 12px 25px;
     position: relative;
     animation-name: moveUp;

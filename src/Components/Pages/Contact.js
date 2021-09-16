@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Navbar from '../Navbar/Navbar';
 // import { db } from '../../firebase';
 import './Contact.css';
 
@@ -32,6 +33,7 @@ const Contact = () => {
 
     return (
         <div className="container mt-5 pt-5">
+            <Navbar/>
 
             <div className="contact-section">
 

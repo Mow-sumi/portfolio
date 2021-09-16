@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Typewriter from 'typewriter-effect';
+import Navbar from './Navbar/Navbar';
 import './Pages/Home.css';
 
 const Home = () => {
@@ -10,8 +11,14 @@ const Home = () => {
         titleThree: " I' am a web Developer",
         image: "/images/pic1.png.jpg",
     })
+
+   
     return (
+
+      
         <div className="container mt-5 py-3">
+<Navbar/>
+
         <div className="home">
             <div className="home-intro">
 
@@ -34,7 +41,7 @@ const Home = () => {
                 </div>
 
                 <div className="contact-me">
-                 <button className="button"><a href="https://drive.google.com/file/d/1ZH3lnjCD4QeDU2EOSbRYtWfvX75pVCWo/view?usp=sharing" target="_blank" rel="noreferrer">Hire Me</a></button>
+                 <button className="button"><a href="https://drive.google.com/file/d/1ZH3lnjCD4QeDU2EOSbRYtWfvX75pVCWo/view?usp=sharing" target="_blank" rel="noreferrer">Download CV</a></button>
              </div>
             </div>
 
@@ -43,6 +50,7 @@ const Home = () => {
             </div> */}
            </div>
            </div>
+
     );
 };
 

@@ -1,10 +1,11 @@
 import React from 'react';
+import Navbar from '../Navbar/Navbar';
 import './Projects.css'
 
 const Projects = () => {
   return (
     <div className="container mt-5 py-5 text-dark">
-     
+     <Navbar/>
       <div className="card-section">
 
               <div className="title text-center mb-2 mt-3">
